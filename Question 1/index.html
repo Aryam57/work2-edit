@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Weight Loss Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <div id="weightLossCalculatorContainer" >
+    <h2>The Weight Loss Calculator</h2>
+    <form id="caloriesForm">
+        <label for="running">Enter number of hours of running:</label>
+        <input type="number" id="running" name="running" required><br><br>
+        
+        <label for="cycling">Enter number of hours of cycling:</label>
+        <input type="number" id="cycling" name="cycling" required><br><br>
+        
+        <label for="walking"> Enter number of hours of walking:</label>
+        <input type="number" id="walking" name="walking" required><br><br>
+        
+        <button type="button" onclick="calculateWeightLoss();">Submit</button>
+        <button type="button" id="resetButton">Resut </button>
+    </form>
+                        </div>
+   
+    
+   
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+body {
+                        background-image: url('./food.jpg'); /* تغيير 'background_image.jpg' إلى اسم الصورة الخاصة بك */
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        height: 100vh;
+                        margin: 0;
+                    }
+            
+                    #weightLossCalculatorContainer {
+                        background-color: rgba(255, 255, 255, 0.8); /* خلفية شفافة */
+                        border-radius: 10px;
+                        padding: 40px;
+                        width: 300px; /* عرض النموذج */
+                        text-align: center; /* محاذاة النص في الوسط */
+                    } 
+            
+                    label {
+                        font-size: 1.2em; /* حجم الخط للعلامات */
+                        display: block;
+                        margin-bottom: 10px; /* تباعد بين العناصر */
+                    }
+            
+                    input[type="number"] {
+                        width: 100%;
+                        padding: 10px;
+                        margin-bottom: 10px;
+                        border: 1px solid #ccc;
+                        border-radius: 5px;
+                        box-sizing: border-box;
+                    }
+            
+                    button {
+                        padding: 10px 20px;
+                        background-color: #4CAF50;
+                        color: white;
+                        border: none;
+                        border-radius: 5px;
+                        cursor: pointer;
+                        font-size: 1.2em; /* حجم الخط للأزرار */
+                    }
+            
+                    button:hover {
+                        background-color: #45a049;
+                    }
+            
+                    button:focus {
+                        outline: none;
+                    }
+            
+                    #caloriesForm h2 {
+                        text-align: center;
+                        margin-bottom: 20px; /* تباعد بين العنوان والنموذج */
+                    }
