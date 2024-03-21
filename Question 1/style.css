@@ -9,13 +9,13 @@ body {
                         margin: 0;
                     }
             
-                    #weightLossCalculatorContainer {
+                    #caloriesFormContainer {
                         background-color: rgba(255, 255, 255, 0.8); /* خلفية شفافة */
                         border-radius: 10px;
-                        padding: 40px;
-                        width: 300px; /* عرض النموذج */
+                        padding: 20px;
+                        width: 400px; /* عرض النموذج */
                         text-align: center; /* محاذاة النص في الوسط */
-                    } 
+                    }
             
                     label {
                         font-size: 1.2em; /* حجم الخط للعلامات */

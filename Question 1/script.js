@@ -22,8 +22,9 @@ function calculateWeightLoss() {
                         
                         const weightLoss = totalCaloriesBurned / 3800;
                         
+                        alert('Thank you for using the weight loss website.Number of calorise brrmed is: ' + totalCaloriesBurned.toFixed(2) +
+                        '،  Number of kilograms worked off is' + weightLoss.toFixed(2));
                         
-                        alert('Thank you for using the weight loss website. Number of calorise brrmed is 492 number of kilograms worked off is==0.129');
                     }
                     
                     document.getElementById('resetButton').addEventListener('click', function() {
@@ -33,7 +34,11 @@ function calculateWeightLoss() {
                         }
                     });
                     
-                   
+                    function resetForm() {
+                        document.getElementById('caloriesForm').reset();
+                        document.getElementById('result').innerHTML = ''; 
+                    }
+                    
                     
                     
                     
